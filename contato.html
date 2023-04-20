@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header style="background-color: rgb(150, 144, 144); text-align: center; padding: 10px; font-size: 20px;">
+        <h1>HTML <sup>Linguagem de Marcação de Hipertexto</sup></h1>
+        <h3>Tutorial para Iniciantes</h3>
+    </header>
+   
+    <div>
+        <nav>
+            <ul style="list-style: none; display: flex; justify-content: space-between; background-color: #000000;padding: 10px;">
+                <li style="flex-grow: 1;"><a href="#" style="color: #fff; text-decoration: none;">Inicio </a></li>
+                <li style="flex-grow: 1;"><a href="#" style="color: #fff;text-decoration: none"> HTML </a></li>
+                <li style="flex-grow: 1;"><a href="#" style="color: #fff;text-decoration: none"> Tabelas e listas<a></li>
+                <li style="flex-grow: 1;"><a href="#" style="color: #fff;text-decoration: none">Sobre HTML CSS JS</a></li>
+                <li style="flex-grow: 1;"><a href="#" style="color: #fff;text-decoration: none">Links</a></li>
+                <li style="flex-grow: 1;"><a href="contato.html" style="color: #fff;text-decoration: none"> Contatos</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <form action="obrigado.html" method="get"  target="_blank">
+        <div>
+            <label for="name">Escreva seu nome</label>
+            <input type="text" name="email" id="email" required>
+        </div>
+        <div>
+            <label for="email">Coloque seu email:</label>
+            <input type="email" name="assunto" id="assunto" required>
+        </div>
+        <div>
+            <label for="select">Selecione seu cargo</label>
+            <select name="select" id="select">
+                <option value="Estagiario">Estagiario da Empresa</option>
+                <option value="Funcionario">Funcionario da Empresa</option>
+                <option value="Chefe">Chefe da Empresa</option>
+            </select>
+        </div>
+        <div>
+            <label for="mensagem">Escresva sua mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="concordo" value="Concordo com os Termos" required>
+            <label for="tex">Concordo com os Termos de Privacidade do Site</label>
+        </div>
+        <div style="padding: 10px;">
+            <input type="submit" value="Enviar">
+        </div>
+    </form>
+    <footer style="display: flex;">
+        <section style="width: 33%;  height: 150px;  background-color: rgb(85, 85, 85)">
+            <h2>Sobre</h2>
+            <ul>
+                <li><a href="#">Topo</a></li>
+                <li><a href="#"></a>Politica de privacidade</li>
+                <li><a href="#">Fale conosco</a></li>
+            </ul>
+        </section>
+        <section style="width: 33%; height: 150px; background-color: rgb(214, 213, 213);"><h2>Referências</h2>
+        <ul>
+            <li><a href="#">W3School</a></li>
+            <li><a href="#">Alura</a></li>
+            <li><a href="#">Youtube</a></li>   
+        </ul>
+        </section>
+        <section style="width: 33%; height: 150px; background-color: rgb(85, 85, 85);"><h2>Tutoriais</h2>
+            <ul>
+                <li><a href="#"></a>Designer</li>
+                <li><a href="#"></a>Marketing</li>
+                <li><a href="#"></a>Programação</li>
+                <li><a href="#"></a>Tutoriais</li>
+            </ul>        
+        </section>
+        <section style="width: 33%; height: 150px; background-color: rgb(214, 213, 213);"><h2>Outros Links</h2>
+            <ul>
+                <li><a href="#"></a>Escolha 3 links</li>
+                <li><a href="#"></a>Para Sugerir</li>
+                <li><a href="#"></a>Aqui nesse espaço</li>
+            </ul> 
+        </section>     
+    </footer>
+</body>
+</html>
